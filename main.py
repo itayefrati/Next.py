@@ -9,7 +9,7 @@ def combine_coins(coin, numbers):
     :param numbers:
     :return:
     """
-    
+    return ', '.join(coin + str(num) for num in numbers)
 
 def multi_char(char):
     # multiply a char by 2
